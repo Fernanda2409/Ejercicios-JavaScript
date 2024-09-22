@@ -1,0 +1,134 @@
+
+.menu {
+	display: block;
+	position: relative;
+	height: 76px;
+	width: 120px;
+	margin: 0;
+	overflow: hidden;
+  }
+  
+  /* Bordes superiores */
+  
+  .menu.e1 {
+	border-top: #ffc000 0.3em solid;
+  }
+  
+  .menu.e2 {
+	border-top: #b81800 0.3em solid;
+  }
+  
+  .menu.e3 {
+	border-top: #00a53c 0.3em solid;
+  }
+  
+  .menu.e4 {
+	border-top: #9600b4 0.3em solid;
+  }
+
+  .menu.e5 {
+	border-top: #00a2ff 0.3em solid;
+  }
+  
+  .menu.e6 {
+	border-top: #b8008a 0.3em solid;
+  }
+  
+  .menu.e7 {
+	border-top: #a52400 0.3em solid;
+  }
+  
+  .menu.e8 {
+	border-top: #b4007b 0.3em solid;
+  }
+
+  .menu.e9 {
+	border-top: #00ffea 0.3em solid;
+  }
+  
+  .menu.e10 {
+	border-top: #b80096 0.3em solid;
+  }
+  
+  .menu > span {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 0%;
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+  }
+  
+  .menu:after, .menu > span > span {
+	display: block;
+	text-align: center;
+	border-radius: 0em;
+	padding: 2em 0 1.5em;
+  }
+  
+  .menu:after {
+	content: attr(data-title);
+	width: 100%;
+	background: #000;
+	color: #fff; 
+  }
+  
+  .menu > span > span {
+	width: 120px;
+	color: #fff;
+  }  
+  .menu:hover > span {
+	  height: 100%; 
+  }
+  
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  li a {
+	display: inline;
+	float: left;
+	text-decoration: none;
+	font-family: sans;
+  }
+h1{
+    background-color: #1d97e3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+form{
+	width:330px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#63badf;
+}
+button{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	color:#fff;
+	background-color:#000;
+} 
+label{
+	width:65px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+input{
+	width:90%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
